@@ -65,7 +65,31 @@ header{
 
   }
 
-  
+  #data-table{
+
+    width: 100%;
+    border-spacing: 0 0.5rem;
+      
+  }
+
+  table th{
+
+    
+    padding: 1rem 2rem;
+    font-weight: 900;
+     color: #969cb3;
+     text-align: left;
+
+  }
+
+  table td{
+      
+     color: #333f5f;
+      font-weight: 400;
+
+    
+
+  }
 
   footer{
       text-align: center;
