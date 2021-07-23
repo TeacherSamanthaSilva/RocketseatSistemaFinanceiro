@@ -77,15 +77,15 @@ header{
     
     padding: 1rem 2rem;
     font-weight: 900;
-     color: #969cb3;
+    color: #333f5f;
      text-align: left;
 
   }
 
   table td{
       
-     color: #333f5f;
-      font-weight: 400;
+     color: #969cb3;
+      font-weight: 700;
       padding: 0.5rem;
   }
 
@@ -101,4 +101,6 @@ header{
 
   footer{
       text-align: center;
+      padding: 4rem 0 2rem;
+      opacity: 0.6;
   }
