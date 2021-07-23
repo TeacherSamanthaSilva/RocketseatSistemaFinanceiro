@@ -27,6 +27,21 @@ header{
     margin: auto;
   }
 
+  h2{
+      margin-top: 3.2rem;
+      margin-bottom: 0.843rem;
+      color: #333f5f;
+      font-weight: 400;
+  }
+  
+  #balance{
+      margin-top: -8rem;
+  }
+
+  #balance h2{
+      color: #ffffff;
+  }
+
   footer{
       text-align: center;
   }
