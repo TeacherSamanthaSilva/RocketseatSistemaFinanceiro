@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 93.75%;
+}
+
 body{
     background-color: #f0f2f5;
     font-family: 'Roboto', sans-serif;
@@ -114,6 +118,8 @@ header{
 
     width: 100%;
     border-spacing: 0 0.5rem;
+    display: block;
+    overflow-x: auto;
       
   }
 
@@ -148,4 +154,14 @@ header{
       text-align: center;
       padding: 4rem 0 2rem;
       opacity: 0.6;
+  }
+
+  @media(min-width:800px){
+
+    html{
+        font-size: 87.5%;
+    }
+
+    
+
   }
