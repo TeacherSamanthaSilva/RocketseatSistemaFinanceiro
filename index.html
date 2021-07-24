@@ -34,7 +34,7 @@
                        
                     </div>
                     <div class="input-group actions">
-                        <a href="#" class="button-cancel">Cancelar</a>
+                        <a href="#" onclick="Modal.close()"class="button-cancel">Cancelar</a>
                         <button>Salvar</button>
                     </div>
 
@@ -120,10 +120,14 @@
          const Modal = {
             open(){
 
-                document.querySelector()
+                document.querySelector('.model-overlay')
+                .classList.add('active')
 
             },
             close(){
+
+                document.querySelector('.model-overlay')
+                .classList.remove('active')
 
             }
         }
