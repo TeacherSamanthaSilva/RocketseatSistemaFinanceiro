@@ -18,9 +18,30 @@
         <img src="images/logo.svg" alt="logomarca do sistema devfinance desafio da maratona discover da Rocketseat">
     </header>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay active">
         <div class="modal">
-            <div class="modal-content"></div>
+            <div class="form">
+                <h2>Nova transação</h2>]
+                <form action="">
+                    <div class="input-group" >
+                        <label for="amount"></label>
+                        <input type="text" id="description" name="description" placeholder="Descrição" id="amount" step="0,01" placeholder="R$ 0,00">
+                        <small class="help">Use o sinal -(negativo) para despesas e ,(virgula) para casas decimais </small>
+                    </div>
+                    <div class="input-group" >
+                        <label for="amount"></label>
+                        <input type="date" id="data" name="data" placeholder="01/01/2000">
+                       
+                    </div>
+                    <div class="input-group actions">
+                        <a href="#" class="button-cancel">Cancelar</a>
+                        <button>Salvar</button>
+                    </div>
+
+
+                </form>
+                
+            </div>
         </div>
     </div>
     <!-- Conteúd0 -->
