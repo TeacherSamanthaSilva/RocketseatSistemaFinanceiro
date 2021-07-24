@@ -104,6 +104,11 @@ header{
 
   }
 
+  .button-new{
+       margin-bottom: .8rem;
+       display: inline-block;
+  }
+
   #data-table{
 
     width: 100%;
