@@ -215,6 +215,10 @@ header{
 
   }
 
+  .input-group.actions button{
+      width: 48%;
+  }
+
   
 
   footer{
