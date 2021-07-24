@@ -114,12 +114,17 @@ header{
        padding: 10px;
   }
 
+  #transaction{
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+
   #data-table{
 
     width: 100%;
     border-spacing: 0 0.5rem;
-    display: block;
-    overflow-x: auto;
+    
       
   }
 
