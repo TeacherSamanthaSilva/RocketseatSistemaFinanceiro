@@ -47,7 +47,7 @@ const Transaction = {
 
 const DOM ={
     innerHTMLTransaction(){
-        const html = 
+        const html = ''
     }
 }
 
