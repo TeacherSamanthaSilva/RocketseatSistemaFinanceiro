@@ -169,6 +169,7 @@ header{
   .modal-overlay active{
     opacity: 1;
     visibility: visible;
+    z-index: 999;
 
   }
 
@@ -177,6 +178,7 @@ header{
       padding: 2.4rem;
       position: relative;
       width: 90%;
+      z-index : 1;
   }
       
 
